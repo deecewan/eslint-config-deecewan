@@ -1,0 +1,14 @@
+{
+  "name": "@deecewan/eslint-config-base",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/deecewan/eslint-config-deecewan",
+  "author": "David Buchan-Swanson <david.buchanswanson@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.7.0"
+  }
+}
