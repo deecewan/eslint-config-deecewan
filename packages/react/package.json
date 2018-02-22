@@ -1,12 +1,12 @@
 {
   "name": "@deecewan/eslint-config-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "repository": "https://github.com/deecewan/eslint-config-deecewan",
   "author": "David Buchan-Swanson <david.buchanswanson@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@deecewan/eslint-config-base": "^0.0.1",
+    "@deecewan/eslint-config-base": "^0.0.2",
     "lodash.merge": "^4.6.1"
   },
   "peerDependencies": {
