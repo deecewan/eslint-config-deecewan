@@ -1,5 +1,5 @@
 const merge = require('lodash.merge');
-const base = require('@deecewan/eslint-plugin-base');
+const base = require('@deecewan/eslint-config-base');
 
 const config = {
   extends: ['@deecewan/eslint-config-base', 'airbnb'],

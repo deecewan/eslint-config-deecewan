@@ -1,6 +1,6 @@
 const merge = require('lodash.merge');
-const flow = require('@deecewan/eslint-plugin-flow');
-const react = require('@deecewan/eslint-plugin-react');
+const flow = require('@deecewan/eslint-config-flow');
+const react = require('@deecewan/eslint-config-react');
 
 const merged = merge({}, flow, react);
 
