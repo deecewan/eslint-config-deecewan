@@ -63,8 +63,6 @@ const config = {
       2,
       'never'
     ],
-    /* ensure types all look the same - FooType, not Foo or foo */
-    'flowtype/type-id-match': [2, '^([A-Z][a-z0-9]*)+Type$'],
     /* enforce consistent spacing around union types */
     'flowtype/union-intersection-spacing': [
       2,
