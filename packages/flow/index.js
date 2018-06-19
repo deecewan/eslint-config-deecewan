@@ -1,7 +1,5 @@
-const merge = require('lodash.merge');
-const base = require('@deecewan/eslint-config-base');
-
-const config = {
+module.exports = {
+  extends: require.resolve('@deecewan/eslint-config-base'),
   parser: 'babel-eslint',
   plugins: [
     'flowtype',
@@ -71,6 +69,4 @@ const config = {
     /* marks flow types as used - used to work with other rules */
     'flowtype/use-flow-type': 2,
   }
-}
-
-module.exports = merge({}, base, config);
+};

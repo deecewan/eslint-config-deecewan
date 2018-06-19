@@ -6,11 +6,9 @@
     "author": "David Buchan-Swanson <david.buchanswanson@gmail.com>",
     "license": "MIT",
     "dependencies": {
-        "@deecewan/eslint-config-base": "^0.0.2",
-        "lodash.merge": "^4.6.1"
+        "@deecewan/eslint-config-base": "^0.0.2"
     },
     "peerDependencies": {
-        "eslint": "^4.17.0",
         "eslint-plugin-flowtype": "^2.42.0"
     }
 }

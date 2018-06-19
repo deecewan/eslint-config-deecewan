@@ -1,8 +1,5 @@
-const merge = require('lodash.merge');
-const base = require('@deecewan/eslint-config-base');
-
 const config = {
-  extends: ['@deecewan/eslint-config-base', 'airbnb'],
+  extends: [require.resolve('@deecewan/eslint-config-base'), 'airbnb'],
   rules: {
     /* use jsx for React files */
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx'] }],
@@ -30,5 +27,3 @@ const config = {
     }],
   }
 }
-
-module.exports = merge({}, base, config);
