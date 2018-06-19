@@ -1,12 +1,12 @@
 {
   "name": "@deecewan/eslint-config-flow-react",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "index.js",
   "repository": "https://github.com/deecewan/eslint-config-deecewan",
   "author": "David Buchan-Swanson <david.buchanswanson@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@deecewan/eslint-config-flow": "^0.0.4",
-    "@deecewan/eslint-config-react": "^0.0.3"
+    "@deecewan/eslint-config-flow": "^0.0.5",
+    "@deecewan/eslint-config-react": "^0.0.5"
   }
 }
