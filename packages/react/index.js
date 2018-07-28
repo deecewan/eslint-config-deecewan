@@ -1,5 +1,5 @@
 const config = {
-  extends: [require.resolve('@deecewan/eslint-config-base'), 'airbnb'],
+  extends: ['airbnb', require.resolve('@deecewan/eslint-config-base')],
   rules: {
     /* use jsx for React files */
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx'] }],

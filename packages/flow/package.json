@@ -6,9 +6,7 @@
     "author": "David Buchan-Swanson <david.buchanswanson@gmail.com>",
     "license": "MIT",
     "dependencies": {
-        "@deecewan/eslint-config-base": "^0.0.5"
-    },
-    "peerDependencies": {
+        "@deecewan/eslint-config-base": "^0.0.5",
         "eslint-plugin-flowtype": "^2.42.0"
     }
 }
