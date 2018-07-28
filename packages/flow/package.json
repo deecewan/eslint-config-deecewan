@@ -1,12 +1,12 @@
 {
     "name": "@deecewan/eslint-config-flow",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "main": "index.js",
     "repository": "https://github.com/deecewan/eslint-config-deecewan",
     "author": "David Buchan-Swanson <david.buchanswanson@gmail.com>",
     "license": "MIT",
     "dependencies": {
-        "@deecewan/eslint-config-base": "^0.0.6",
+        "@deecewan/eslint-config-base": "^0.0.7",
         "eslint-config-airbnb": "^17.0.0",
         "eslint-plugin-flowtype": "^2.50.0",
         "eslint-plugin-jsx-a11y": "^6.1.1",
