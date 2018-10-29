@@ -10,20 +10,20 @@ module.exports = {
      */
     'import/no-named-as-default': 0,
     /* enforce the order of React classes */
-    'react/sort-comp': [2, {
-      order: [
-        'static-methods',
-        'lifecycle',
-        'everything-else',
-        '/^on.+$/', // event handlers
-        'rendering' //
-      ],
-      groups: {
-        rendering: [
-          '/^render.+$/',
-          'render'
-        ]
-      }
-    }],
-  }
-}
+    'react/sort-comp': [
+      2,
+      {
+        order: [
+          'static-methods',
+          'lifecycle',
+          'everything-else',
+          '/^on.+$/', // event handlers
+          'rendering', //
+        ],
+        groups: {
+          rendering: ['/^render.+$/', 'render'],
+        },
+      },
+    ],
+  },
+};
