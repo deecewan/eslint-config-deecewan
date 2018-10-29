@@ -4,6 +4,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node tests/index.js"
+  },
   "version": "0.0.1",
   "description": "ESLint config that I generally use",
   "main": "index.js",
@@ -12,14 +16,8 @@
   "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^8.2.3",
-    "eslint": "^4.17.0",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-flowtype": "^2.42.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jest": "^21.7.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.6.1",
-    "lerna": "^2.8.0"
+    "eslint": "^5.8.0",
+    "lerna": "^3.4.3",
+    "prettier": "^1.14.3"
   }
 }
