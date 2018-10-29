@@ -1,4 +1,4 @@
-const config = {
+module.exports = {
   extends: ['airbnb', require.resolve('@deecewan/eslint-config-base')],
   rules: {
     /* use jsx for React files */
